@@ -166,11 +166,12 @@
     
     </table>
         <!-- only one form tag with all the information you want user to input -->
-        <form action="url" method="">
+        <!-- action atribute does not send information to any URL. Result an CANNOT GET/ url. Page not linked to any server -->
+        <form action="get" method="get">
         <fieldset>
                 <legend>Your Details</legend>
-                <input type="text" name="username" id="username" placeholder="Enter Username" required>
-                <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                <input type="text" name="username" id="username" size="20" placeholder="Enter Username" required>
+                <input type="email" name="email" id="email" size="30" placeholder="Enter Email" required>
         </fieldset>
     
     <div></div>
@@ -209,8 +210,29 @@
                 
             </fieldset>
         </form>
-        <h5> Contact Us</h5>
-        <!-- email not link to actual page that works; does open a new tab. -->
-        <p><a href="malito: damianmtz9@gmail.com" target="_blank">Email Us</a></p> 
-    </body>
+        <h2>The Anime Shop</h2>
+        <div>
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Men</li></a>
+                <a href=""><li>Women</li></a>
+                <a href=""><li>Accessories</li></a>
+            </ul>
+            <p>123 Some Road Dr, BlueRidge GA, 456789</p>
+            <p>Telephone: (123)-456-7890</p>
+            <p><a href="mailto:damianmtz9@gmail.com" target="_blank">Theanimeshop@yahoo.com</a></p>
+
+            <!-- add iframe tag but no page is yet display. google maps did not want to display -->
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+        <div>
+            <h5> Contact Us</h5>
+            <!-- email not link to actual page that works; does open a new tab. -->
+            <p><a href="malito: damianmtz9@gmail.com" target="_blank">Email Us</a></p> 
+            <p>&copy;The Anime Shop <br> The Anime Shop &reg;</p>
+
+        </div>
+
+
+        </body>
 </html>
